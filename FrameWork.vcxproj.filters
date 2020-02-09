@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{0868a581-b2f7-4757-9b65-8fd7f43a8b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{9f348c63-2d0b-4909-acb7-7640139d3da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Image">
+      <UniqueIdentifier>{ccb6012f-b518-4bf3-91d1-2503932f2d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Scene">
+      <UniqueIdentifier>{920edd5c-09d3-4101-877b-f8be2fa8d756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Input">
+      <UniqueIdentifier>{c1a348e9-9cf3-494b-80a4-92b6a83e1ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maingame">
+      <UniqueIdentifier>{bf0909bd-9bcc-4553-83f9-1dfab9b17761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Image\Texture">
+      <UniqueIdentifier>{4cec48bb-cacc-4c74-b7d3-d51a3b96b5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{4437317b-5920-4c54-889f-e4128a892926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Load">
+      <UniqueIdentifier>{d12659d0-b27f-44b2-8349-d2a9957f2ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\cTitleScene">
+      <UniqueIdentifier>{03d6dced-8b3d-49ff-ae7e-5920e48b19fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Button">
+      <UniqueIdentifier>{8193da6b-d441-4730-bc76-7deb50ef86ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Ingame">
+      <UniqueIdentifier>{98e744b6-1ee1-4667-9dc8-07aa68d4a3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Closet">
+      <UniqueIdentifier>{225894d8-6275-42cc-b054-50bfb9fed2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\MouseCursor">
+      <UniqueIdentifier>{5ade3cde-209f-4175-8270-d6b7ef40e66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Result">
+      <UniqueIdentifier>{d5469fe5-b1f3-4675-b919-2b09d9023ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\cShopScene">
+      <UniqueIdentifier>{94828107-e68b-4b27-9bed-9e27f402bfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\OrderBox">
+      <UniqueIdentifier>{e7a86a03-a0b9-422f-8c72-c1acb1dcf7d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleton.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="FrameWork.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>Maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>Manager\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="cTexture.h">
+      <Filter>Manager\Image\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cMultiTexture.h">
+      <Filter>Manager\Image\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingleTexture.h">
+      <Filter>Manager\Image\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngameScene.h">
+      <Filter>Scene\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitleScene.h">
+      <Filter>Scene\cTitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cFontManager.h" />
+    <ClInclude Include="cButton.h">
+      <Filter>Manager\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainScene.h">
+      <Filter>Scene\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cCloset.h">
+      <Filter>Object\Closet</Filter>
+    </ClInclude>
+    <ClInclude Include="cMouseCursor.h">
+      <Filter>Manager\MouseCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Comment.h">
+      <Filter>Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="cShopScene.h">
+      <Filter>Scene\cShopScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cOrderBox.h">
+      <Filter>Object\OrderBox</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadScene.h">
+      <Filter>Scene\Load</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWork.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>Maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cSingleTexture.cpp">
+      <Filter>Manager\Image\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cTexture.cpp">
+      <Filter>Manager\Image\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cMultiTexture.cpp">
+      <Filter>Manager\Image\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngameScene.cpp">
+      <Filter>Scene\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadScene.cpp">
+      <Filter>Scene\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>Manager\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitleScene.cpp">
+      <Filter>Scene\cTitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cFontManager.cpp" />
+    <ClCompile Include="cButton.cpp">
+      <Filter>Manager\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainScene.cpp">
+      <Filter>Scene\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cCloset.cpp">
+      <Filter>Object\Closet</Filter>
+    </ClCompile>
+    <ClCompile Include="cMouseCursor.cpp">
+      <Filter>Manager\MouseCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Comment.cpp">
+      <Filter>Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="cShopScene.cpp">
+      <Filter>Scene\cShopScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cOrderBox.cpp">
+      <Filter>Object\OrderBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameWork.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FrameWork.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
